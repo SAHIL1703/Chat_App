@@ -1,0 +1,75 @@
+.rs{
+    color: white;
+    background: #001030;
+    position: relative;
+    height: 75vh;
+    overflow-y:scroll ;
+}
+.rs-profile{
+    padding-top: 3.75rem;
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+.rs-profile img{
+    width: 6.875rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.rs-profile h3{
+    font-size: 1.125rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3125rem;
+    margin: .3125rem 0rem;
+}
+.rs-profile p{
+    font-size: 0.75rem;
+    opacity: .8;
+    font-weight: 300;
+}
+.rs hr{
+    color: #ffffff50;
+    opacity: 0.7;
+    margin: .625rem 0rem;
+}
+.rs-media{
+    padding: 0 1.25rem;
+    font-size: 1.25rem;
+}
+.rs-media div{
+    max-height: 11.25rem;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .3125rem;
+    margin-top: .5rem;
+}
+.rs-media div img{
+    width: 100%;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+    background-color: #077eff;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    padding: .5rem 0.75rem;
+    margin: .625rem 2.25rem;
+    font-size: .875rem ;
+    font-weight: 500;
+}
+
+@media (max-width : 900px){
+    .rs{
+        display: none;
+    }
+}

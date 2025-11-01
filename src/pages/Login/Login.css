@@ -1,0 +1,103 @@
+.login{
+    height: 100vh;
+    background: url(/background.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.login-form{
+    /* border: 2px solid red; */
+    padding: 1.25rem 1.875rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    border-radius: .625rem;
+}
+
+.login-form h2{
+    font-weight: 500;
+}
+
+.form-input{
+    padding: .5rem .625rem;
+    border: 1px solid #c9c9c9;
+    border-radius: .25rem;
+    outline-color: #077EFF;
+
+}
+
+.login-form button {
+    padding: .625rem;
+    background-color: #077EFF;
+    color: white;
+    font-size: 1rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    border: none;
+}
+
+.login-term{
+    display: flex;
+    gap: .5rem;
+    font-size: 0.9rem;
+    color: #808080;
+}
+
+.login-forgot{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: .3125rem;
+}
+.login-toggle{
+    /* border: 2px solid red; */
+    font-size : 0.9rem;
+    color: #5c5c4c;
+    flex: 1;
+    /* margin: auto; */
+}
+.login-toggle span{
+    /* border: 2px solid red; */
+    margin: 0 .5rem;
+    font-weight: 500;
+    color: #077EFF;
+    cursor: pointer;
+}
+
+
+/* Media Screen  */
+/* Tablet (max width 768px) */
+@media (max-width: 848px) {
+  
+    .login {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .login .logo{
+        width: 40%;
+    }
+    .login-form{
+        width: 80%;
+    }
+}
+
+/* Mobile (max width 480px) */
+@media (max-width: 480px) {
+  .login .logo{
+    width: 50%;
+  }
+  .login-form{
+    width:90%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .login-term p {
+    font-size: 3vw;
+  }
+}   
