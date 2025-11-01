@@ -2,6 +2,9 @@
 This project is a real-time chat application built using React (Vite), Firebase, and Cloudinary.
 It allows users to register, login, chat, update profiles, and upload images in a smooth and responsive interface.
 
+# Deployment Link
+    https://chat-app-eight-zeta-30.vercel.app/
+
 ## 🚀 Features
 🔐 User Authentication (Signup, Login, Logout, Reset Password)
 
@@ -137,4 +140,4 @@ Chat_App/
     Sahil Pisal
     📧 GitHub
     💻 Full Stack Developer
-    
+
